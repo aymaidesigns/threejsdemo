@@ -194,7 +194,7 @@
         // arWorldRoot.add( mesh ); //instead of adding mesh to the scene right away we add only when the target is detected
         //end icosphere code
         ///////////////////////////////////////////////////////////
-        geometry = new THREE.TetrahedronGeometry(150, 0);
+        geometry = new THREE.TetrahedronGeometry(1, 1);
         material = new THREE.MeshNormalMaterial({shading: THREE.SmoothShading});
         mesh = new THREE.Mesh(geometry, material);
         mesh.castShadow = true;
